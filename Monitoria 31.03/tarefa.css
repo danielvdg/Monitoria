@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:;
+}
+.objsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+
+.link {
+    color: red;
+    
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin:3% 0;
+    
+    text-align: center;
+    font-weight: bold;
+
+    background-color: grey;
+}
+
+.link:hover {
+
+    background-color: rgb(14, 83, 187);
+    
+
+}
+
+
+.link:active {
+    color: white;
+}
+
+.link:visited {
+
+    color: purple;
+}
+
+
+.caixa1  {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+
+    background-color:blue;
+    color:white;
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.caixa1:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.caixa1:active {
+    background-color: red;
+    color:yellow;
+
+}
+
+.caixa2 {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+
+    background-color: green;
+    text-align: center;
+
+}
+
+.caixa2:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.caixa2:active {
+    background-color: purple;
+    color:yellow;
+
+}
+
+
+.frase1::first-letter {
+    font-size: 20px;
+
+}
+
+.frase1::first-line {
+
+    background-color: black;
+    color: yellow;
+}
+
+.frase1::before {
+    content: "☢" ;
+    background-color: green;
+    color: yellow;
+}
+
+.frase1::after {
+content: "♞";
+background-color: white;
+color: black;
+
+}
+
+.frase1 em::selection {
+    background-color: greenyellow;
+    color:green;
+
+}
+.list1 li::marker {
+   color: orangered;
+   font-size: 50px;
+}
+
+.list2 li::marker {
+    color: green;
+    font-size: 50px;
+ }

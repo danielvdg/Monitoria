@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="tituloprincipal">
+        <h1 >Aprenda mais Sobre DOM</h1>
+        <h2>Sabemos como é dificil entender DOM e todos os seus métodos, então preparamos um conteúdo especial para você, preencha o formulário abaixo e receberá o nosso E-book Entendendo o DOM em seu email</h2>
+    </header>
+    <div id="telaDividida">
+
+    
+        <form id="formularioPrincipal">
+
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+            <p>receba novidade por Whatsapp?</p>
+            
+            <label for="radioSIM">Sim</label>
+            <input type="radio" name="novidade" id="radioSim">
+            
+            <label for="radioNao">Não</label>
+            <input type="radio" name="novidade" id="radioNao">
+
+            <div id="tel" class="tel invisivel">
+
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel"  placeholder="(XX)XXXXX-XXXX" >
+                
+            </div>
+
+            <input type="submit" value="Cadastrar" id="btnCadastrar">
+
+        </form>
+        <div id="recberEmail" class="invisivel">
+            <h3>Recebemos o seu cadastro, e já enviamos o nooso E-book  Entendendo DOM para o e-mail.</h3>
+            
+            <button id="btnOK">Ok</button>
+        </div>
+</div>
+    <script src="formsmonitoria.js"></script>
+</body>
+</html>

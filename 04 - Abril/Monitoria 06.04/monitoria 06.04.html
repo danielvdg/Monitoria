@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+<script>
+    function mostra (frase) {
+        
+        document.write(frase)
+        
+    }
+    
+    function calculaMedia (nota1 , nota2, nota3, nota4 ){
+        
+        var media = Math.floor((nota1 + nota2 + nota3 + nota4) / 4);
+        
+        if (media == 10) {
+            return ("Vencedor")
+            
+        } else if (media >= 8 && media <=9 ) {
+            
+            return "Te dou parabéns";
+        }else if (media == 7  ) {
+            
+            return "Dias de luta dia de Glória";
+        }else if (media >= 5 && media <=6 ) {
+            
+            return "foi de rapão valeu";
+
+        } else if (media == 0 && media <= 4){
+            return "tente outra vez" 
+            
+        } else {
+
+            return ("nota incorreta");
+                       
+        }
+        
+    } 
+    
+    var mediajoao = calculaMedia (10,10,10,10);
+    var mediapedro = calculaMedia(8,8,8,8);
+    var mediacarla = calculaMedia (5,5,5,5);
+    var mediaigor  = calculaMedia (3,3,3,3);
+
+    mostra(mediajoao) ;
+    document.write ("<br><br>");
+
+    mostra(mediapedro);
+    document.write ("<br><br>");
+
+    mostra (mediacarla);
+    document.write ("<br><br>");
+
+    mostra (mediaigor);
+    document.write ("<br><br>");
+    
+    
+    
+</script>
